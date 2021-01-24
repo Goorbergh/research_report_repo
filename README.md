@@ -13,13 +13,14 @@ For questions, email:
 
 r.vandengoorbergh@gmail.com
 
-## How to...
+## Index
 1. [Get started](#start)
 2. [Variables](#variables)
 3. [Imbalance solutions](#imbalance)
 4. [Models](#models)
 5. [Performance statistics](#performance)
 6. [Calibration plots](#calibration)
+7. [Research report](#report)
 
 #### 1. Get started <a name="start"></a>
  a. All simulations were carried out in R 3.6.2<br /> 
@@ -27,6 +28,7 @@ r.vandengoorbergh@gmail.com
  c. Note that in line 21 the working directory should be specified as the path to the folder "research_report_repository".<br />  
  d. The used R packages are: install.packages(c("tidyverse", "summarytools", "randomForest", "glmnet", "glmnetUtils", "xgboost", "data.table", "caret", "smotefamily", "xtable")) <br /> 
  e. Due to privacy concerns, the original data is not included in this repository. To illustrate where the data is supposed to be for the script in order to work  a proxy file is included. 
+ f. The code can be found in the code folder
 
 #### 2. Data & Variables <a name="variables"></a>
 a. The data import and variable selection happens in lines 20 - 29<br />
@@ -60,4 +62,5 @@ c. Predictors included in the analysis are:<br />
  #### 6. Calibration plots <a name="calibration"></a>
  a. Creating a grid of calibration plots happens in lines 491 - 585
  
-
+ #### 7. Research report <a name="report"></a>
+ a. The folder 'Research_report' contains a pdf of the final research report and a folder with all the files needed to knit the report.
