@@ -1,4 +1,4 @@
-# research_report_repo
+# The harm of SMOTE and other imbalance adjustments: a case study
  A case study to class imbalance solutions and the performance of medical prediction models
 
 Author of this file and of the final version of the code: Ruben Willem van den Goorbergh
