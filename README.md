@@ -24,37 +24,37 @@ r.vandengoorbergh@gmail.com
 #### 1. Get started <a name="start"></a>
  a. All simulations were carried out in R 3.6.2<br /> 
  b. The .R files contain elaborate comments what happens in which part of the code, therefore only a description on where to find which process can be found in this file. <br />
- c. Note that in line 21 the working directory should be specified as the path to the folder "research_report_repository".<br />   
+ c. Note that in line 21 the working directory should be specified as the path to the folder "research_report_repository".<br />  
  d. The used R packages are: install.packages(c("tidyverse", "summarytools", "randomForest", "glmnet", "glmnetUtils", "xgboost", "data.table", "caret", "smotefamily", "xtable")) <br /> 
- e. Due to privacy concerns, the original data is not included in this repository. To illustrate where the data is supposed to be for the script in order to work  a proxy file is included. <br />
+ e. Due to privacy concerns, the original data is not included in this repository. To illustrate where the data is supposed to be for the script in order to work  a proxy file is included. 
 
 #### 2. Data & Variables <a name="variables"></a>
-a. The data import and variable selection happens in lines 20 - 29
-b. The only cases where menoyn = 0(non-oncology centre patients) are included to create class imbalance
-c. Predictors included in the analysis are:
-   I. Age
-   II. ovaryd1
-   III. ovaryd3
- These variables are included based on their statistical properties and not on clinical theory. 
+a. The data import and variable selection happens in lines 20 - 29<br />
+b. The only cases where menoyn = 0(non-oncology centre patients) are included to create class imbalance<br />
+c. Predictors included in the analysis are:<br />
+   I. Age<br />
+   II. ovaryd1<br />
+   III. ovaryd3<br />
+ These variables are included based on their statistical properties and not on clinical theory.<br /> 
  d. EDA and splitting train and test data happens in lines 31-64
 
  #### 3. Imbalance solutions <a name="imbalance"></a>
- a. Imbalance solutions are implemented in lines 66-99
- b. Solutions used are:
-   I. Random undersampling (RUS)
-   II. Random oversampling (ROS)
+ a. Imbalance solutions are implemented in lines 66-99<br />
+ b. Solutions used are:<br />
+   I. Random undersampling (RUS)<br />
+   II. Random oversampling (ROS)<br />
    III. Synthetic Minority Oversampling TEchnique (SMOTE)
  
  #### 4. Models <a name="models"></a>
- a. Model fitting happens in lines 104 - 369
- b. Models used are:
-   I. Regular logistic regression
-   II. Ridge logistic regression
-   III. Random forest
+ a. Model fitting happens in lines 104 - 369<br />
+ b. Models used are:<br />
+   I. Regular logistic regression<br />
+   II. Ridge logistic regression<br />
+   III. Random forest<br />
    IIII. XGboost
  
  #### 5. Performance statistics <a name="performance"></a>
- a. Calculating the performance statistics (table 2 in the report) happens in lines 371 - 448.
+ a. Calculating the performance statistics (table 2 in the report) happens in lines 371 - 448.<br />
  b. The functions to calculate (except the c-statistic confidence intervals) can be found in Performance measure.R.
  
  #### 6. Calibration plots <a name="calibration"></a>
