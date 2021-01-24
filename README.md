@@ -63,4 +63,4 @@ c. Predictors included in the analysis are:<br />
  a. Creating a grid of calibration plots happens in lines 491 - 585
  
  #### 7. Research report <a name="report"></a>
- a. The folder 'Research_report' contains a pdf of the final research report and a folder with all the files needed to knit the report.
+ a. The folder 'Research_report' contains a pdf of the final research report and a folder with all the files needed to compile the report.
