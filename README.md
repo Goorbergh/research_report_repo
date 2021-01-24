@@ -22,11 +22,11 @@ r.vandengoorbergh@gmail.com
 6. [Calibration plots](#calibration)
 
 #### 1. Get started <a name="start"></a>
- a. All simulations were carried out in R 3.6.2 
- b. The .R files contain elaborate comments what happens in which part of the code, therefore only a description on where to find which process can be found in this file. 
- c. Note that in line 21 the working directory should be specified as the path to the folder "research_report_repository".   
- d. The used R packages are: install.packages(c("tidyverse", "summarytools", "randomForest", "glmnet", "glmnetUtils", "xgboost", "data.table", "caret", "smotefamily", "xtable"))  
- e. Due to privacy concerns, the original data is not included in this repository. To illustrate where the data is supposed to be for the script in order to work  a proxy file is included. 
+ a. All simulations were carried out in R 3.6.2<br /> 
+ b. The .R files contain elaborate comments what happens in which part of the code, therefore only a description on where to find which process can be found in this file. <br />
+ c. Note that in line 21 the working directory should be specified as the path to the folder "research_report_repository".<br />   
+ d. The used R packages are: install.packages(c("tidyverse", "summarytools", "randomForest", "glmnet", "glmnetUtils", "xgboost", "data.table", "caret", "smotefamily", "xtable")) <br /> 
+ e. Due to privacy concerns, the original data is not included in this repository. To illustrate where the data is supposed to be for the script in order to work  a proxy file is included. <br />
 
 #### 2. Data & Variables <a name="variables"></a>
 a. The data import and variable selection happens in lines 20 - 29
