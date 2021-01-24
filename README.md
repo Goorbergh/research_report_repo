@@ -32,26 +32,26 @@ r.vandengoorbergh@gmail.com
 a. The data import and variable selection happens in lines 20 - 29<br />
 b. The only cases where menoyn = 0(non-oncology centre patients) are included to create class imbalance<br />
 c. Predictors included in the analysis are:<br />
-    + I. Age<br />
-    + II. ovaryd1<br />
-    + III. ovaryd3<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Age<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. ovaryd1<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. ovaryd3<br />
  These variables are included based on their statistical properties and not on clinical theory.<br /> 
  d. EDA and splitting train and test data happens in lines 31-64
 
  #### 3. Imbalance solutions <a name="imbalance"></a>
  a. Imbalance solutions are implemented in lines 66-99<br />
  b. Solutions used are:<br />
-   I. Random undersampling (RUS)<br />
-   II. Random oversampling (ROS)<br />
-   III. Synthetic Minority Oversampling TEchnique (SMOTE)
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Random undersampling (RUS)<br />
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Random oversampling (ROS)<br />
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Synthetic Minority Oversampling TEchnique (SMOTE)
  
  #### 4. Models <a name="models"></a>
  a. Model fitting happens in lines 104 - 369<br />
  b. Models used are:<br />
-   I. Regular logistic regression<br />
-   II. Ridge logistic regression<br />
-   III. Random forest<br />
-   IIII. XGboost
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I. Regular logistic regression<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Ridge logistic regression<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Random forest<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIII. XGboost
  
  #### 5. Performance statistics <a name="performance"></a>
  a. Calculating the performance statistics (table 2 in the report) happens in lines 371 - 448.<br />
