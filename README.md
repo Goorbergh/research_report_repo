@@ -32,9 +32,9 @@ r.vandengoorbergh@gmail.com
 a. The data import and variable selection happens in lines 20 - 29<br />
 b. The only cases where menoyn = 0(non-oncology centre patients) are included to create class imbalance<br />
 c. Predictors included in the analysis are:<br />
-   I. Age<br />
-   II. ovaryd1<br />
-   III. ovaryd3<br />
+    + I. Age<br />
+    + II. ovaryd1<br />
+    + III. ovaryd3<br />
  These variables are included based on their statistical properties and not on clinical theory.<br /> 
  d. EDA and splitting train and test data happens in lines 31-64
 
