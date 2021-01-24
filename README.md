@@ -19,6 +19,7 @@ r.vandengoorbergh@gmail.com
 3. [Imbalance solutions](#imbalance)
 4. [Models](#models)
 5. [Performance statistics](#performance)
+6. [Calibration plots](#calibration)
 
 #### 1. Get started <a name="start"></a>
 a. All simulations were carried out in R 3.6.2
